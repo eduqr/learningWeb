@@ -5,7 +5,7 @@
 }
 
 body{
-    font-family: "lato" sans-serif;
+    font-family: 'Gabarito', cursive;
     color: white
 
 }
@@ -115,11 +115,124 @@ p{
 .btn{
     border-radius: 6px;
     padding: 12px 20px;
-    background-color: #f2aa24;
+    background-color: #f8c829;
     border: none;
     margin-left: 10px;
     color: white;
     font-size: 10px;
     cursor: pointer;
     box-shadow: 0 10px 10px rgb(0, 0, 0, 0s.2);
+}
+
+.little-info{
+    font-size: 15px;
+    font-family: "poppins", "sans-serif  ";
+}
+
+.lower-container{
+    margin: 120px auto;
+    padding: 0;
+    max-width: 1400px;
+}
+
+.title{
+    color: black;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.text{
+    color: black;
+    font-size: 19px;
+    width: 100%;
+    padding: 10px;
+    margin: 0 20px;
+    text-align: justify;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+.stats{
+    padding: 45px 50px;
+    text-align: center;
+}
+.stat{
+    margin: 0 30px;
+    text-align: center;
+    width: 800px;
+}
+.stats .fa{
+    color: orange;
+}
+
+.testimonials{
+    color: black;
+    margin-bottom: 30px;
+}
+.testimonials img{
+    height: 100%;
+    clip-path: circle();
+}
+.testimonials h3{
+    text-align: center;
+}
+
+.grid-3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.card{
+    padding: 10px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: -7px -7px 20px rgb(0,0, 0, 0.2),
+                7px 7px 20px rgb(0,0, 0, 0.2);
+}
+
+.circle{
+    background-color: transparent;
+    border: 3px solid orange;
+    height: 90px;
+    position: relative;
+    top: 30px;
+    left: 130px;
+    border-radius: 50%;
+    width: 90px;
+}
+
+.title-card{
+    margin-top: 40px;
+    font-size: 150%;
+}
+
+footer{
+    background-color: orange;
+    padding: 20px 10px;
+}
+
+footer a{
+    color: white;
+    margin: 0 10px;
+}
+
+.profiles i{
+    color: white;
+}
+
+footer a:hover{
+    color: greenyellow;
+    border-bottom: 2px solid green;
+}
+
+.title-section{
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
 }
